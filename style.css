@@ -213,7 +213,7 @@ div.frame img {
     padding-left: 8px;
 }
 h1.portfolio{
-    font-size: 26px;
+    font-size: 46px;
     color: black;
     line-height: 1;
     padding-top: 10px;
@@ -233,12 +233,17 @@ a.portfolio-back{
 }
 img.portfolio{
     width: 70%;
-    max-width: 550px;
+    max-width: 475px;
+    
+}
+.display-mobile{
+    display: none;
+
 }
 
 /* responsive design */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     img.cover-profile {
         height: 90px;
         margin-top: 75px;
@@ -293,9 +298,6 @@ img.portfolio{
 
     }
     
-    iframe {
-        height: 250px;
-    }
     /* portfolio mobile */
 
     .portfolio-header-title {
@@ -305,12 +307,29 @@ img.portfolio{
     }
     a.contact-button {
         padding: 7px 12px;
-        margin-top: 15px;
+        margin-top: 22px;
         font-size: 12px;
     }
     a.contact-button-portfolio{
         right: 12px;
         
     }
+    h1.portfolio{
+        font-size: 40px;
+        
+    }
+    h2.portfolio{
+        font-size: 22px;
+       
+    }
+    img.portfolio{
+        width: 100%;
+        
+    }
+    .display-mobile{
+        display: block;
+
+    }
+    
         
 }
