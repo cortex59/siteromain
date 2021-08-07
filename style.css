@@ -67,7 +67,7 @@ div.cover-contact p {
 }
 
 div.cover-contact p:first-child {
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
 }
 
 div.cover-contact * {
@@ -196,6 +196,7 @@ div.frame img {
     width: 100px;
 }
 
+
 /* PORTFOLIO*/
 
 .portfolio-header {
@@ -204,13 +205,18 @@ div.frame img {
     position: relative;
 
 }
-.portfolio-header-title {
+/* .portfolio-header-title{
     font-size: 26px;
     font-weight: bold;
     color: white;
     display: inline-block;
     padding-top: 4px;
     padding-left: 8px;
+} */
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
 }
 h1.portfolio{
     font-size: 46px;
