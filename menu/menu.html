@@ -17,19 +17,20 @@
 			<menu>
 				<menuitem><a>Portfolio</a>
 				<menu>
-					<menuitem><a onclick="GoPortfolioAnimaliere()">Animalière</a></menuitem>
-					<menuitem><a onclick="GoPortfolioPaysage()">Portfolio paysage</a></menuitem>
-					<menuitem><a onclick="GoPortfolioSiteResto()">Portfolio site restaurant</a></menuitem>
+					<!-- On passe par la fonction redirect pour sortir de l'Ifram avant mettre le lien -->
+					<menuitem><a onclick="Redirect('../portfolio-animaliere.html')">Animalière</a></menuitem>
+					<menuitem><a onclick="Redirect('../portfolio-paysage.html')">Paysage</a></menuitem>
+					<menuitem><a onclick="Redirect('../portfolio-site-restaurant.html')">Site restaurant</a></menuitem>
 				</menu>
 				</menuitem>
 				<menuitem id="demo2"><a>Contact</a>
 				<menu>
 					<menuitem id="demo3"><a>En savoir plus</a>
 					<menu>
-						<menuitem><a onclick="GoProfil()">Profil</a></menuitem>
+						<menuitem><a onclick="Redirect('https://www.linkedin.com/in/romain-six')">Profil</a></menuitem>
 					</menu>
 					</menuitem>
-					<menuitem><a onclick="GoCoordonnees()">Coordonnées</a></menuitem>
+					<menuitem><a onclick="Redirect('../contact-frame.html')">Coordonnées</a></menuitem>
 				</menu>
 				</menuitem>
 			</menu>
