@@ -10,29 +10,38 @@
 <body>
     <div class="section">
         <div class="separateur display mobile" style="margin-bottom:15px;"></div>
-    <div class="frame">
-        <p class="frame-title">Parlons de votre projet</p>
-        <table style="width: 100%">
-            <tr>
-                <td valign="top" align="center"><img src="profilromrondsansfond.png"></td>
-                <td>
-                    <div class="texte-avec-ligne-verticale"
-                    style="margin-left: 20px">
-                        <p>
-                            Besoin de discuter de votre projet 
-                            et obtenir l’avis d’un expert ?
-                            <br><br>
-                            <a href="mailto:romain.siix@gmail.com?subject=Contact%20depuis%20romaincortex.com">Contactez moi par email</a> ou directement
-                            par téléphone au <a href="tel:+33683812088">06 83 81 20 88</a>
 
-                        </p>
-                    </div>
-                </td>
-            </tr>
-        </table>
+        <a class="portfolio-back" id="retourIndex" href="index.html" style="visibility: hidden;">Retour</a>
+        <!-- Gestion du lien retour : si ce iFrame n'a pas de page parent, modifier la visibilité de l'élément dont l'id est retourIndex -->
+        <script>
+            if(window.frameElement===null){
+                document.getElementById("retourIndex").style.visibility="visible";
+            }
+        </script>
+        
+        <div class="frame">
+            
+            <p class="frame-title">Parlons de votre projet</p>
+            <table style="width: 100%">
+                <tr>
+                    <td valign="top" align="center"><img src="profilromrondsansfond.png"></td>
+                    <td>
+                        <div class="texte-avec-ligne-verticale"
+                        style="margin-left: 20px">
+                            <p>
+                                Besoin de discuter de votre projet 
+                                et obtenir l’avis d’un expert ?
+                                <br><br>
+                                <a href="mailto:romain.siix@gmail.com?subject=Contact%20depuis%20romaincortex.com">Contactez moi par email</a> ou directement
+                                par téléphone au <a href="tel:+33683812088">06 83 81 20 88</a>
+
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
 
     </div>
-
-
-</div>
 </body>
