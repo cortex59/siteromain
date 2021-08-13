@@ -118,7 +118,7 @@ html, body{
 
  /* gestion ecran mobile*/
 
- media only screen and (max-width: 767px) {
+ @media only screen and (max-width: 767px) {
    img.cover-profile {
        height: 90px;
        margin-top: 75px;
@@ -210,4 +210,3 @@ html, body{
       transform:translateX(0) translateY(0%);
       opacity: 1;
    }
-  

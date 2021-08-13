@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,52 +8,93 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
 
     <!--Header-->
     <div class="portfolio-header">
-        <div class="texte-avec-ligne-verticale" style="margin-left:16px; margin-top: 22px; height: 45px;">
-            <a href="index.html" class="logo">Romain Six</p>
+        <div class="texte-avec-ligne-verticale"
+        style="margin-left:16px; margin-top: 22px; height: 45px;">
+            <p class="portfolio-header-title">Romain Six</p>
         </div>
-        <a class="contact-button" style="position: absolute; right: 20px; top: 5px;"
+        <a class="contact-button"
+            style="position: absolute; right: 20px; top: 5px;"
             href="mailto:romain.siix@gmail.com?subject=Contact%20depuis%20romaincortex.com">ME CONTACTER</a>
-
-        <!-- Menu FRAME - Source : https://codepen.io/sean_codes/pen/WdzgdY -->
-        <iframe src="menu/menu.html" scrolling="no"></iframe>
-    </div>
 
     <!--section grise titre-->
     <div class="section section-grise1" style="padding: top 20px;">
-        <!-- <a class="portfolio-back" href="index.html"> Retour</a> -->
+        <a class="portfolio-back" href="index.html"> Retour</a>
         <div class="separateur" style="margin: top -12px;;"></div>
         <h1 class="portfolio">Portfolio</h1>
         <h2 class="portfolio"> photographie de paysages</h2>
     </div>
-
     <!-- section contenu-->
     <div class="section">
         <div class="texte-avec-ligne-verticale">
             <p>
-
-                TEXTE A ECRIRE ICI POUR DETAILLER LE PROJET
-                mettre les balise br et br pour faire des lignes vide entre chaque phrase
-                baise u pour souligner
-                et b pour gras
-
+                Voici un exemple de photographie réalisée par mes soins.
+                Lors de la flambé des couleurs de l'automne 2019 via un canon EOS 6D M1 
+                Cette période de l'année appel le Photographe en foret. Les couleurs flamboyante sont encore plus impressionnante en vrai !!
+                profittez d'un agrandissement de la photo pour une immersion prennante.
+                
             </p>
             <div style="text-align: center; margin-top: 30px;">
-                <img class="portfolio" src="routesmallprojet.jpg">
+            <!--<img class="portfolio" src="routesmallprojet.jpg">
+            
+            <a style="display: block; margin-top: 8px;" href="routegrand.jpg" width="15%" height="15%" no repeat>   Aggrandir la photographie</a> !-->
+        
+            
+            
 
-                <a style="display: block; margin-top: 8px;" href="routegrand.jpg" width="15%" height="15%" no repeat>
-                    Aggrandir la photographie</a>
-            </div>
-        </div>
-
-        <!--FRAME-->
-        <iframe src="contact-frame.html" scrolling="no" />
+         </div>
     </div>
 
-</body>
+    <!-- test insertion gallerie photo  avec possibilité de faire defiler et cliquer dessus pour afficher plus grand-->
+    
+        
+        <div class="gallery">
+            <a target="_blank" href="couche_soleil.jpg">
+              <img src="couche_soleil.jpg" alt="Cinque Terre" width="400" height="200">
+            </a>
+            <div class="desc">route automnale</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="lac_weedon.jpg">
+              <img src="lac_weedon.jpg" alt="Forest" width="400" height="200">
+            </a>
+            <div class="desc"> Jolie lac dans la ville de Weedon</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="marais_neige.jpg">
+              <img src="marais_neige.jpg" alt="Northern Lights" width="400" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="cascade_dos.jpg">
+              <img src="cascade_dos.jpg" alt="Mountains" width="400" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
 
+          <div class="gallery">
+            <a target="_blank" href="couche_quebec.jpg">
+              <img src="couche_quebec.jpg" alt="Mountains" width="400" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="reflet_magog.jpg">
+              <img src="reflet_magog.jpg" alt="Mountains" width="400" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+    
+
+    <!--FRAME-->
+        <iframe src="contact-frame.html" scrolling="no"/>
+</body>
 </html>
